@@ -24,13 +24,21 @@ const Home = () => {
       <Link href="/login" style={styles.links}>
         <ThemedText>Login Page</ThemedText>
       </Link>
-
       <Link href="/register" style={styles.links}>
         <ThemedText>Register Page</ThemedText>
       </Link>
+      <Link href="/profile" style={styles.links}>
+        <ThemedText>Profile Page</ThemedText>
+      </Link>
+      <Link href="/create" style={styles.links}>
+        <ThemedText>Create Page</ThemedText>
+      </Link>
+      <Link href="/books" style={styles.links}>
+        <ThemedText>Books Page</ThemedText>
+      </Link>
     </ThemedView>
   );
-}
+};
 
 export default Home;
 
