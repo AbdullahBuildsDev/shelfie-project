@@ -21,16 +21,16 @@ const Home = () => {
       <ThemedText style={{ marginTop: 5, marginBottom: 12 }}>
         Reading List App
       </ThemedText>
-      <Link href="/about" style={styles.links}>
-        <ThemedText>About Page</ThemedText>
+      <Link href="/login" style={styles.links}>
+        <ThemedText>Login Page</ThemedText>
       </Link>
 
-      <Link href="/contact" style={styles.links}>
-        <ThemedText>Contact Page</ThemedText>
+      <Link href="/register" style={styles.links}>
+        <ThemedText>Register Page</ThemedText>
       </Link>
     </ThemedView>
   );
-};
+}
 
 export default Home;
 
