@@ -7,6 +7,7 @@ const Dashboardlayout = () => {
   const colorScheme = useColorScheme();
   const theme = Colors[colorScheme] ?? Colors.light;
 
+
   return (
     <Tabs
       screenOptions={{

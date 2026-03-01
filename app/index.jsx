@@ -30,12 +30,7 @@ const Home = () => {
       <Link href="/profile" style={styles.links}>
         <ThemedText>Profile Page</ThemedText>
       </Link>
-      <Link href="/create" style={styles.links}>
-        <ThemedText>Create Page</ThemedText>
-      </Link>
-      <Link href="/books" style={styles.links}>
-        <ThemedText>Books Page</ThemedText>
-      </Link>
+    
     </ThemedView>
   );
 };
